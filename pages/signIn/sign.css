@@ -6,7 +6,7 @@ article{
         background-color: var(--text-color);
         box-shadow: 2px 2px 5px gray, -2px -2px 5px lightgray;
         border-radius: 20px;
-        height: 25rem;
+        height: 32rem;
         padding: 10px 20px 0 20px;
         display: flex;
         flex-direction: column;
@@ -17,11 +17,6 @@ article{
     h1{
         display: flex;
         justify-content: center;
-    }
-
-
-    span{
-        color: rgb(228, 192, 125);
     }
 
 
