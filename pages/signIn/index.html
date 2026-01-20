@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>singIn | BlocSite</title>
     <link rel="stylesheet" href="../../assets/css/main.css">
     <link rel="stylesheet" href="../signIn/sign.css">
     <link rel="stylesheet" href="../../assets/css/animation.css">
@@ -16,23 +16,24 @@
             <div class="log-person">
 
                 <label for="">Nome</label>
-                <input class="input-label" type="text"
+                <input id="input-name" type="text"
                 required
                 >
                 <label for="">Email</label>
-                <input class="input-label" type="email"
+                <input id="input-email" type="email"
                 required
                 >
                 <label for="">Senha</label>
-                <input class="input-label" type="password"
+                <input id="input-password" type="password"
                 required
                 >
                 <a href="#">Esqueceu a semha?</a>
-               <a href="../home/index.html" class="button"><button class="input-label">Iniciar sessão</button></a> 
+              <button id="button" onclick="cadastrar()">Iniciar sessão</button> 
                 <small>Não tem uma conta? <a href="" class="criate-count">Crie uma conta </a></small>
 
             </div>
         </article>
     </main>
+    <script src="../signIn/singIn.js"></script>
 </body>
 </html>

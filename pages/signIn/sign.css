@@ -1,6 +1,6 @@
 
 main{
-width: 23rem;
+width: 26rem;
 
 article{
         background-color: var(--text-color);
@@ -26,9 +26,10 @@ article{
         flex-direction: column;
         margin-top: 20px;
         gap: .80rem;
+       
 
 
-         .input-label{
+         input{
             padding: var(--input-size);
             font-size: var(--text-size);
             border-radius: .6rem;
@@ -50,16 +51,18 @@ article{
 
 
 
-            .button{
+            #button{
 
-
-
-                button{
                     width: 100%;
                     color: var(--text-color);
                     font-size: var(--text-size);
                     background-color: var(--first-color);
-                }
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: var(--input-size);
+                    border-radius: .6rem;
+                
     
             }
          
