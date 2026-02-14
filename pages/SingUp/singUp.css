@@ -1,0 +1,85 @@
+main{
+    width: 26rem;
+    
+    article{
+            background-color: var(--text-color);
+            box-shadow: 2px 2px 5px gray, -2px -2px 5px lightgray;
+            border-radius: 20px;
+            height: 32rem;
+            padding: 10px 20px 0 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            
+         
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+    
+    
+        .log-person{
+            
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            gap: .80rem;
+           
+    
+    
+             input{
+                padding: var(--input-size);
+                font-size: var(--text-size);
+                border-radius: .6rem;
+    
+                &:is(:focus,:hover){
+                    border-color: var(--first-color);
+                    cursor: pointer;
+                }
+    
+            }
+               
+                a{
+                    display: flex;
+                    justify-content: right;
+                    text-decoration: none;
+                    color: black;
+                    font-size: var(--font-small);
+                }
+    
+    
+    
+                #button{
+                        
+                        width: 100%;
+                        color: var(--text-color);
+                        font-size: var(--text-size);
+                        background-color: var(--first-color);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: var(--input-size);
+                        border-radius: .6rem;
+                    
+        
+                }
+             
+    
+                small{
+                    display: flex;
+                    justify-content: center;
+
+
+    
+                    .criate-count{
+                        color: var(--first-color);
+                    }
+                }
+            
+            
+        }
+    }
+    
+      
+    }
