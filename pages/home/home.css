@@ -10,6 +10,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: .8rem;
+    
 
 
     h1{
@@ -19,7 +20,18 @@ main{
     div{
         padding: 12px;
     }
-   
+    
+    #logout{
+        color: white;
+        background-color: black;
+        padding: 16px;
+        border-radius: .6rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+        
+    }
     
    }
    .section-rigth{
@@ -56,7 +68,10 @@ main{
         padding: 16px;
         border-radius: .6rem;
     }
+
+   
     }
+  
 
    }
     

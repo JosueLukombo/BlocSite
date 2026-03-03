@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | BlocSite</title>
     <link rel="stylesheet" href="../../assets/css/main.css">
     <link rel="stylesheet" href="../../assets/css/animation.css">
@@ -14,25 +14,30 @@
         <section class="section-Img">
             <h1>Bloc<span>Site</span></h1>
 
-            
             <div class="information">
-                <h3>Tarefa 2</h3>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                   Perferendis atque consequuntur magni, sunt itaque vero illo. Recusandae, 
-                   nam obcaecati? Minus ad numquam facere dolor, deserunt dolorum aut dolores aperiam. Quo!</p>
+                <ul style="border: 1px solid red; height: 8rem;" id="list">
+                   
+                </ul>
+                
+                <button id="logout">sair</button>
             </div>
 
         </section>
+
         <section class="section-rigth">
             <h2>Meu Bloco de notas</h2>
+            <h3 id="nome-usuario"></h3>
+
             <div class="input-button">
                 <input type="search" placeholder="Digite a tarefa" class="input-text" id="tarefas">
                 <input type="submit" class="input-sbmit" id="btn">
             </div>
+
             
         </section>
+
     </main>
+
     <script src="../home/home.js"></script>
 </body>
 </html>
